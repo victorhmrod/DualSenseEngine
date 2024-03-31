@@ -1,0 +1,29 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "DualSense Support",
+	"Description": "Input device plugin for the DualSense controller on Windows.",
+	"Category": "Core",
+	"CreatedBy": "Wise Labs: Gameworks",
+	"CreatedByURL": "",
+	"DocsURL": "https://wise-labs.gitbook.io/dual-sense-engine/",
+	"MarketplaceURL": "",
+	"SupportURL": "https://discord.gg/zHRXGEDg",
+	"EngineVersion": "5.3.0",
+	"CanContainContent": false,
+	"Installed": true,
+	"SupportedTargetPlatforms": [
+		"Win64"
+	],
+	"Modules": [
+		{
+			"Name": "DualSenseEngine",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"PlatformAllowList": [
+				"Win64"
+			]
+		}
+	]
+}
